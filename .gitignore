@@ -1,0 +1,13 @@
+# 构建产物
+/bin/
+/lib/
+/build/
+*.o
+*.obj
+
+# 测试输出
+/test/out/
+
+# 编辑器/系统
+.DS_Store
+*.swp
