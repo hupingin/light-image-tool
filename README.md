@@ -95,6 +95,10 @@ python test/test_bmp.py
 `make libs` 会产出 `lib/liblitcore`、`lib/liblitbmp`、`lib/liblitops`。
 上层项目可只链接需要的模块，例如仅做 BMP 处理时链接 `liblitcore` + `liblitbmp`。
 
+## 文档
+
+更完整的设计、构建、API、命令行、格式与测试说明见 [`doc/`](doc/) 目录。
+
 ## 路线图
 
 - [x] 核心图像抽象 `LITImage`
